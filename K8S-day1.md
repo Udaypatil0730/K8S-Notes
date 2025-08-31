@@ -1,6 +1,6 @@
-Cheat sheet — everything we covered today (compact, interview-ready)
 
-Nice work today, Uday — below is a single-page, high-signal cheat sheet that captures every concept we covered in this chat, with quick keywords, why it matters, short commands, and a 1-line interview line you can speak. Use this to revise fast.
+
+#### NOTES ####
 
 1) Kubernetes architecture — core idea
 
