@@ -8,7 +8,7 @@ Keywords: Control plane (API Server, etcd, Scheduler, Controller Manager), Worke
 
 Why: Control plane stores desired state in etcd; workers execute containers.
 
-Interview line: “K8s separates brain (control plane) from workers; the API server records desired state in etcd and controllers + scheduler ensure pods run on nodes.”
+KEY: “K8s separates brain (control plane) from workers; the API server records desired state in etcd and controllers + scheduler ensure pods run on nodes.”
 
 2) Pods / ReplicaSet / Deployment (controller + self-healing)
 
