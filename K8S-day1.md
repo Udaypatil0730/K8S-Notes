@@ -1,6 +1,6 @@
-Cheat sheet — everything we covered today (compact, interview-ready)
 
-Nice work today, Uday — below is a single-page, high-signal cheat sheet that captures every concept we covered in this chat, with quick keywords, why it matters, short commands, and a 1-line interview line you can speak. Use this to revise fast.
+
+#### NOTES ####
 
 1) Kubernetes architecture — core idea
 
@@ -8,7 +8,7 @@ Keywords: Control plane (API Server, etcd, Scheduler, Controller Manager), Worke
 
 Why: Control plane stores desired state in etcd; workers execute containers.
 
-Interview line: “K8s separates brain (control plane) from workers; the API server records desired state in etcd and controllers + scheduler ensure pods run on nodes.”
+KEY: “K8s separates brain (control plane) from workers; the API server records desired state in etcd and controllers + scheduler ensure pods run on nodes.”
 
 2) Pods / ReplicaSet / Deployment (controller + self-healing)
 
@@ -189,6 +189,6 @@ kubectl create secret generic db-secret --from-literal=DB_PASS=secret
 kubectl scale deployment myapp --replicas=5
 kubectl autoscale deployment myapp --cpu-percent=50 --min=2 --max=10
 
-19) One-sentence stories for your ABN AMRO Client Portal (use in interviews)
+(interviews)
 
 “We ran 10 microservices for the Client Portal on EKS; Ingress + single LB routed traffic to microservices (paths/hosts), Secrets were stored via Vault/AWS Secrets Manager and injected into pods, deployments were automated by Jenkins pipelines running under service accounts with RBAC, and we used Prometheus/Grafana for monitoring and HPA + Cluster Autoscaler for scaling.”
