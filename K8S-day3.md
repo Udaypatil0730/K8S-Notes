@@ -28,11 +28,7 @@ If YAML = Just Helps/Supports → No Image
 
 “Container images are only specified in Pod-level controllers (Deployment, StatefulSet, DaemonSet, Job, Pod). All other YAML files like Service, Ingress, ConfigMap, Secret, or PV/PVC are supporting resources, so they don’t need an image.”
 
-Would you like me to also prepare a mnemonic (one-liner trick) like a small sentence to instantly recall which YAMLs need images?
 
-You said:
-perfect thanks so we will wind up today I mean let's give me the cheat sheet for all day three so that I can close this you know how to create a cheat sheet we already did for last two days create for today itself also
-ChatGPT said:
 
 Got it Uday 👍 Let’s wrap up Day 3 with your Kubernetes Cheat Sheet (just like we did for Day 1 & Day 2). I’ll keep it crisp, easy-to-remember, and “interview-ready.”
 
