@@ -1,6 +1,7 @@
 Notes
 
 🚀 Kubernetes YAML Cheat Sheet (Easy-to-Remember)
+
 YAML File	Purpose	Needs Container Image?	Trick to Remember
 Deployment.yaml	Runs stateless apps (Pods)	✅ Yes	D = Docker Image
 StatefulSet.yaml	Runs stateful apps (DB, Kafka)	✅ Yes	S = Stateful + Storage → Needs Image
