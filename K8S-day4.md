@@ -146,3 +146,5 @@ Job = one-time, CronJob = schedule.
 Readiness = can I take traffic?, Liveness = am I alive?, Startup = am I booted yet?
 
 ClusterIP = internal, NodePort = node-wide, LB = cloud external.
+
+
