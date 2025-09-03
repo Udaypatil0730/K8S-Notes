@@ -1,3 +1,6 @@
+### NOTES ###
+
+
 Day 4 – ConfigMaps, Secrets & Feature Toggles
 
 ConfigMap → App settings (non-sensitive). Example: URLs, feature flags.
