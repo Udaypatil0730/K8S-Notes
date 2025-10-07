@@ -192,3 +192,5 @@ kubectl autoscale deployment myapp --cpu-percent=50 --min=2 --max=10
 (interviews)
 
 “We ran 10 microservices for the Client Portal on EKS; Ingress + single LB routed traffic to microservices (paths/hosts), Secrets were stored via Vault/AWS Secrets Manager and injected into pods, deployments were automated by Jenkins pipelines running under service accounts with RBAC, and we used Prometheus/Grafana for monitoring and HPA + Cluster Autoscaler for scaling.”
+
+END
